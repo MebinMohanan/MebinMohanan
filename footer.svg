@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="100" fill="url(#footBg)"/>
+  <!-- Animated wave lines -->
+  <path d="M0,50 Q150,20 300,50 T600,50 T900,50" fill="none" stroke="url(#wave1)" stroke-width="1">
+    <animate attributeName="d" values="M0,50 Q150,20 300,50 T600,50 T900,50;M0,50 Q150,80 300,50 T600,50 T900,50;M0,50 Q150,20 300,50 T600,50 T900,50" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,55 Q200,85 400,55 T800,55 T900,55" fill="none" stroke="url(#wave2)" stroke-width="1">
+    <animate attributeName="d" values="M0,55 Q200,85 400,55 T800,55 T900,55;M0,55 Q200,25 400,55 T800,55 T900,55;M0,55 Q200,85 400,55 T800,55 T900,55" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <text x="450" y="55" text-anchor="middle" fill="#c4b5fd" font-family="monospace" font-size="11" opacity="0.5">⟨ designed to engineer solutions, built to solve the impossible ⟩</text>
+</svg>

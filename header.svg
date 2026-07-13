@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="50%" stop-color="#0d1025"/>
+      <stop offset="100%" stop-color="#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <filter id="glowFilter">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="900" height="320" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="900" height="320" fill="url(#bg)"/>
+    <!-- Grid -->
+    <g opacity="0.06" stroke="#00f0ff" stroke-width="0.5">
+      <line x1="0" y1="40" x2="900" y2="40"/><line x1="0" y1="80" x2="900" y2="80"/>
+      <line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="160" x2="900" y2="160"/>
+      <line x1="0" y1="200" x2="900" y2="200"/><line x1="0" y1="240" x2="900" y2="240"/>
+      <line x1="0" y1="280" x2="900" y2="280"/>
+      <line x1="100" y1="0" x2="100" y2="320"/><line x1="200" y1="0" x2="200" y2="320"/>
+      <line x1="300" y1="0" x2="300" y2="320"/><line x1="400" y1="0" x2="400" y2="320"/>
+      <line x1="500" y1="0" x2="500" y2="320"/><line x1="600" y1="0" x2="600" y2="320"/>
+      <line x1="700" y1="0" x2="700" y2="320"/><line x1="800" y1="0" x2="800" y2="320"/>
+    </g>
+    <!-- HUD corners -->
+    <g stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.6">
+      <polyline points="30,15 15,15 15,30"/><polyline points="870,15 885,15 885,30"/>
+      <polyline points="30,305 15,305 15,290"/><polyline points="870,305 885,305 885,290"/>
+    </g>
+    <!-- Scan line -->
+    <rect x="0" y="0" width="900" height="2" fill="url(#glow)" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,320;0,0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Floating particles -->
+    <circle r="1" fill="#00f0ff" opacity="0.4">
+      <animate attributeName="cx" values="100;130;100" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;50;60" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.5" fill="#a855f7" opacity="0.3">
+      <animate attributeName="cx" values="780;810;780" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="70;55;70" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1" fill="#00f0ff" opacity="0.5">
+      <animate attributeName="cx" values="200;220;200" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="260;245;260" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.2" fill="#a855f7" opacity="0.4">
+      <animate attributeName="cx" values="700;680;700" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250;270;250" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- HUD side markers -->
+    <g opacity="0.4">
+      <rect x="22" y="55" width="4" height="4" fill="#00f0ff" rx="1"/>
+      <rect x="22" y="70" width="4" height="4" fill="#00f0ff" rx="1"/>
+      <rect x="22" y="85" width="4" height="4" fill="#a855f7" rx="1"/>
+      <rect x="874" y="55" width="4" height="4" fill="#00f0ff" rx="1"/>
+      <rect x="874" y="70" width="4" height="4" fill="#a855f7" rx="1"/>
+      <rect x="874" y="85" width="4" height="4" fill="#00f0ff" rx="1"/>
+    </g>
+    <!-- Status text -->
+    <text x="40" y="47" fill="#00f0ff" font-family="monospace" font-size="10" opacity="0.5">SYS::ACTIVE</text>
+    <text x="770" y="47" fill="#00f0ff" font-family="monospace" font-size="10" opacity="0.5">LINK::SECURE</text>
+    <!-- Pulse rings -->
+    <circle cx="450" cy="125" r="60" fill="none" stroke="#00f0ff" stroke-width="0.5" opacity="0">
+      <animate attributeName="r" values="60;100;60" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="125" r="40" fill="none" stroke="#a855f7" stroke-width="0.5" opacity="0">
+      <animate attributeName="r" values="40;80;40" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Main Name -->
+    <text x="450" y="120" text-anchor="middle" fill="url(#textGrad)" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="48" filter="url(#glowFilter)">MEBIN MOHANAN</text>
+    <!-- Animated divider -->
+    <line x1="350" y1="142" x2="550" y2="142" stroke="url(#glow)" stroke-width="1" opacity="0.6">
+      <animate attributeName="x1" values="350;250;350" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="550;650;550" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <!-- Role -->
+    <text x="450" y="172" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', Arial, sans-serif" font-weight="400" font-size="18" letter-spacing="4">SENIOR SOLUTIONS ENGINEER</text>
+    <!-- Tech tags -->
+    <g font-family="monospace" font-size="12" text-anchor="middle">
+      <rect x="140" y="205" width="100" height="26" rx="4" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-opacity="0.3"/>
+      <text x="190" y="223" fill="#00f0ff" opacity="0.9">PYTHON</text>
+      <rect x="260" y="205" width="100" height="26" rx="4" fill="#a855f7" fill-opacity="0.08" stroke="#a855f7" stroke-opacity="0.3"/>
+      <text x="310" y="223" fill="#a855f7" opacity="0.9">FASTAPI</text>
+      <rect x="380" y="205" width="100" height="26" rx="4" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-opacity="0.3"/>
+      <text x="430" y="223" fill="#00f0ff" opacity="0.9">DOCKER</text>
+      <rect x="500" y="205" width="120" height="26" rx="4" fill="#a855f7" fill-opacity="0.08" stroke="#a855f7" stroke-opacity="0.3"/>
+      <text x="560" y="223" fill="#a855f7" opacity="0.9">KUBERNETES</text>
+      <rect x="640" y="205" width="120" height="26" rx="4" fill="#00f0ff" fill-opacity="0.08" stroke="#00f0ff" stroke-opacity="0.3"/>
+      <text x="700" y="223" fill="#00f0ff" opacity="0.9">AI / VISION</text>
+    </g>
+    <!-- Bottom bar -->
+    <rect x="0" y="285" width="900" height="35" fill="#00f0ff" fill-opacity="0.03"/>
+    <line x1="0" y1="285" x2="900" y2="285" stroke="#00f0ff" stroke-opacity="0.15"/>
+    <text x="40" y="307" fill="#00f0ff" font-family="monospace" font-size="10" opacity="0.4">◉ KERALA, INDIA</text>
+    <text x="450" y="307" text-anchor="middle" fill="#a855f7" font-family="monospace" font-size="10" opacity="0.4">◈ DIFINATIVE TECHNOLOGIES ◈</text>
+    <text x="860" y="307" text-anchor="end" fill="#00f0ff" font-family="monospace" font-size="10" opacity="0.4">◉ OPEN TO COLLABORATE</text>
+  </g>
+</svg>
