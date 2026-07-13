@@ -52,43 +52,6 @@ print(me.current_mission())
 
 <br/>
 
-## 🌟 Featured Builds
-
-<table align="center">
-  <tr>
-
-    <td width="50%" valign="top">
-      <h3 align="center">📡 SQLiteDB-MQTT</h3>
-      <p align="center">
-        <a href="https://github.com/MebinMohanan/SQLiteDB-MQTT"><b>IoT Data Pipeline</b></a><br/><br/>
-        Lightweight bridge connecting SQLite storage with MQTT messaging for IoT workflows<br/><br/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white"/>
-      </p>
-    </td>
-     <td width="50%" valign="top">
-      <h3 align="center">⚡ fastApi-webSocket</h3>
-      <p align="center">
-        <a href="https://github.com/MebinMohanan/fastApi-webSocket"><b>Real-time Communication Service</b></a><br/><br/>
-        High-performance WebSocket service built on FastAPI<br/><br/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-   
-    <td width="50%" valign="top">
-      <h3 align="center">🌱 Evora</h3>
-      <p align="center">
-        <a href="https://github.com/MebinMohanan/evora-beta"><b>Web Platform</b></a><br/><br/>
-        Web platform project — from alpha to beta iterations<br/><br/>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Web-Platform-blueviolet?style=flat-square"/>
-      </p>
-    </td>
-  </tr>
-</table>
 
 <br/>
 
