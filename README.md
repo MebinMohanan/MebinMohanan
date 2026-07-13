@@ -137,17 +137,7 @@
 <tr>
 <td width="50%">
 
-<h3>🧬 <a href="https://github.com/MebinMohanan/appeal">APPEAL</a></h3>
 
-> **AI-Powered Pediatric Evaluation Assistance Learning**
-
-An intelligent system for early detection of child development abnormalities — because the best solutions save lives.
-
-```
-STATUS  ██████████████░░░░  Active
-IMPACT  ◉◉◉◉◉  Healthcare + AI
-STACK   Python · AI · Computer Vision
-```
 
 </td>
 <td width="50%">
