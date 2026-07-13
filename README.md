@@ -57,18 +57,13 @@ print(me.current_mission())
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MebinMohanan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=b678c4&icon_color=8871e5" height="165" alt="stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MebinMohanan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=b678c4" height="165" alt="languages"/>
-</p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=MebinMohanan&theme=tokyonight&hide_border=true&background=0d1117&ring=8871e5&fire=b678c4&currStreakLabel=b678c4" alt="streak"/>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MebinMohanan&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies"/>
-</p>
+
 
 <br/>
 
