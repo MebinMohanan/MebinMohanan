@@ -56,15 +56,7 @@ print(me.current_mission())
 
 <table align="center">
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🧒 APPEAL</h3>
-      <p align="center">
-        <a href="https://github.com/MebinMohanan/appeal"><b>AI-Powered Pediatric Evaluation</b></a><br/><br/>
-        Early detection & prevention of child development abnormalities using AI<br/><br/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/AI-Healthcare-e74c3c?style=flat-square"/>
-      </p>
-    </td>
+
     <td width="50%" valign="top">
       <h3 align="center">📡 SQLiteDB-MQTT</h3>
       <p align="center">
@@ -74,9 +66,7 @@ print(me.current_mission())
         <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white"/>
       </p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+     <td width="50%" valign="top">
       <h3 align="center">⚡ fastApi-webSocket</h3>
       <p align="center">
         <a href="https://github.com/MebinMohanan/fastApi-webSocket"><b>Real-time Communication Service</b></a><br/><br/>
@@ -85,6 +75,9 @@ print(me.current_mission())
         <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
       </p>
     </td>
+  </tr>
+  <tr>
+   
     <td width="50%" valign="top">
       <h3 align="center">🌱 Evora</h3>
       <p align="center">
