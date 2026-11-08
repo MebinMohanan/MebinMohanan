@@ -1,275 +1,119 @@
-<!-- 
-  ╔══════════════════════════════════════════════════════════════╗
-  ║  🛸 MEBIN MOHANAN — GitHub Profile README                   ║
-  ║  Theme: Cyberpunk Mission Control / HUD Dashboard            ║
-  ║  Custom hand-crafted SVGs — no templates, no generators      ║
-  ╚══════════════════════════════════════════════════════════════╝
--->
-
-<!-- CUSTOM ANIMATED HEADER — Upload header.svg to your repo -->
-<p align="center">
-  <img src="./header.svg" alt="Mebin Mohanan — Senior Solutions Engineer" width="100%"/>
-</p>
-
-<!-- Quick Links Bar -->
-<p align="center">
-  <a href="https://www.linkedin.com/in/mebinmohan"><img src="https://img.shields.io/badge/-%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/MebinMohanan"><img src="https://img.shields.io/badge/-%20GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/-Kerala,%20India%20🇮🇳-1a1a2e?style=flat-square"/>
-  <img src="https://komarev.com/ghpvc/?username=MebinMohanan&style=flat-square&color=6c3baa&label=VISITORS"/>
-</p>
-
-<br/>
-
-<!-- ANIMATED DIVIDER — Upload divider.svg to your repo -->
-<p align="center"><img src="./divider.svg" width="70%"/></p>
-
-<!-- ═══════════════════ BOOT SEQUENCE ═══════════════════ -->
-
-<h2 align="center">⟐ SYSTEM BOOT ⟐</h2>
-
-```
- ██████████████████████████████████████████████████████████████████████
- █                                                                    █
- █   > whoami                                                         █
- █   mebin_mohanan                                                    █
- █                                                                    █
- █   > cat /etc/role                                                  █
- █   Senior Solutions Engineer @ DifiNative Technologies              █
- █                                                                    █
- █   > cat /etc/mission                                               █
- █   Architect scalable systems. Bridge business & engineering.       █
- █   Ship solutions that work in the real world.                      █
- █                                                                    █
- █   > ls ~/expertise/                                                █
- █   solution-architecture/  api-design/  computer-vision/            █
- █   container-orchestration/  iot-pipelines/  pre-sales-eng/         █
- █                                                                    █
- █   > uptime                                                         █
- █   years of building, breaking, fixing, and shipping                █
- █                                                                    █
- ██████████████████████████████████████████████████████████████████████
-```
-
-<br/>
-
-<p align="center"><img src="./divider.svg" width="70%"/></p>
-
-<!-- ═══════════════════ TECH ARSENAL ═══════════════════ -->
-
-<h2 align="center">⟐ TECH ARSENAL ⟐</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="150">
-
-**`LANGUAGES`**
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=python,js,bash" />
-<br/><br/>
-`Python` · `JS` · `Bash`
-
-</td>
-<td align="center" width="150">
-
-**`BACKEND`**
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=fastapi,sqlite" />
-<br/><br/>
-`FastAPI` · `SQLite`
-<br/>`WebSockets` · `REST`
-
-</td>
-<td align="center" width="150">
-
-**`DEVOPS`**
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux" />
-<br/><br/>
-`Docker` · `K8s`
-<br/>`Linux`
-
-</td>
-<td align="center" width="150">
-
-**`AI & IOT`**
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=opencv,tensorflow" />
-<br/><br/>
-`OpenCV` · `AI/ML`
-<br/>`MQTT` · `IoT`
-
-</td>
-<td align="center" width="150">
-
-**`TOOLS`**
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
-<br/><br/>
-`Git` · `GitHub`
-<br/>`VS Code`
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- Specialty badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/🏗️_Solution_Architecture-1a1a2e?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/🔌_API_Integration-1a1a2e?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/🎯_Pre--Sales_Engineering-1a1a2e?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/📡_IoT_Pipelines-1a1a2e?style=for-the-badge&logoColor=white"/>
-</p>
-
-<br/>
-
-<p align="center"><img src="./divider.svg" width="70%"/></p>
-
-<!-- ═══════════════════ MISSION LOG ═══════════════════ -->
-
-<h2 align="center">⟐ MISSION LOG ⟐</h2>
-
-<br/>
-
-<table align="center">
-<tr>
-<td width="50%">
-
-
-
-</td>
-<td width="50%">
-
-<h3>📡 <a href="https://github.com/MebinMohanan/SQLiteDB-MQTT">SQLiteDB-MQTT</a></h3>
-
-> **IoT Data Pipeline Engine**
-
-A lightweight, purpose-built bridge connecting SQLite persistence with MQTT messaging for seamless IoT data flows.
-
-```
-STATUS  ██████████████████  Production
-IMPACT  ◉◉◉◉◎  IoT Infrastructure
-STACK   Python · MQTT · SQLite
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-<h3>⚡ <a href="https://github.com/MebinMohanan/fastApi-webSocket">fastApi-webSocket</a></h3>
-
-> **Real-time Communication Layer**
-
-High-performance WebSocket service built on FastAPI — enabling real-time data streaming and live interactions.
-
-```
-STATUS  ██████████████████  Production
-IMPACT  ◉◉◉◉◎  Backend Systems
-STACK   Python · FastAPI · WebSockets
-```
-
-</td>
-<td width="50%">
-
-<h3>🌿 <a href="https://github.com/MebinMohanan/evora-beta">Evora</a></h3>
-
-> **Web Platform — Beta**
-
-Evolving web platform from concept through alpha to beta — iterating toward production readiness.
-
-```
-STATUS  ████████████░░░░░░  Beta
-IMPACT  ◉◉◉◎◎  Web Platform
-STACK   HTML · CSS · JavaScript
-```
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<p align="center"><img src="./divider.svg" width="70%"/></p>
-
-<!-- ═══════════════════ ANALYTICS ═══════════════════ -->
-
-<h2 align="center">⟐ SYSTEM ANALYTICS ⟐</h2>
-
-<br/>
+<h1 align="center">Hi, I'm Mebin Mohanan 👋</h1>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MebinMohanan&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=a855f7&text_color=c9d1d9&ring_color=a855f7" height="170" alt="stats"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MebinMohanan&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9" height="170" alt="languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MebinMohanan&hide_border=true&background=0d1117&ring=a855f7&fire=00f0ff&currStreakLabel=00f0ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" alt="streak"/>
-</p>
-
-<!-- Trophies -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MebinMohanan&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies"/>
-</p>
-
-<!-- Contribution Graph -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MebinMohanan&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00f0ff&line=a855f7&point=00f0ff&area=true&area_color=a855f7" width="95%" alt="activity"/>
-</p>
-
-<br/>
-
-<p align="center"><img src="./divider.svg" width="70%"/></p>
-
-<!-- ═══════════════════ CURRENT OPERATIONS ═══════════════════ -->
-
-<h2 align="center">⟐ CURRENT OPERATIONS ⟐</h2>
-
-<br/>
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│   🔭 BUILDING    Scalable solution architectures for enterprise  │
-│   🤖 EXPLORING   LLM integrations & agentic AI workflows        │
-│   👁️ ADVANCING   Computer vision for real-world applications     │
-│   ☸️ MASTERING   Kubernetes orchestration at scale               │
-│   🌐 SHIPPING    Open-source tools & IoT pipelines              │
-│                                                                  │
-│   ◉ STATUS: ACTIVELY SEEKING COLLABORATIONS                     │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
-
-<br/>
-
-<!-- ═══════════════════ CONNECT ═══════════════════ -->
-
-<h2 align="center">⟐ ESTABLISH CONNECTION ⟐</h2>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/mebinmohan">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect_→-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  &nbsp;
   <a href="https://github.com/MebinMohanan">
-    <img src="https://img.shields.io/badge/GitHub-Follow_→-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=640&lines=Senior+Solutions+Engineer+%40+DifiNative;Computer+Vision+%26+Edge+AI+(Jetson+%2F+DeepStream);Agentic+AI+%26+AI-powered+ITSM;Python+%E2%80%A2+FastAPI+%E2%80%A2+Docker+%E2%80%A2+Kubernetes" alt="Typing SVG" />
   </a>
 </p>
 
-<br/>
-
-<!-- CUSTOM ANIMATED FOOTER — Upload footer.svg to your repo -->
 <p align="center">
-  <img src="./footer.svg" alt="footer" width="100%"/>
+  <img src="https://img.shields.io/badge/Location-Kerala%2C%20India-2F81F7?style=flat-square&logo=googlemaps&logoColor=white" />
+  <img src="https://img.shields.io/badge/Experience-9%2B%20years-success?style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=MebinMohanan&style=flat-square&color=blueviolet" alt="Profile views" />
 </p>
 
-<!-- Snake animation — set up via GitHub Actions (instructions below) -->
-<!--
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MebinMohanan/MebinMohanan/output/github-snake-dark.svg" alt="snake" />
+---
+
+### 🧭 About me
+
+I'm a **Senior Solutions Engineer** at **DifiNative Technologies**, where I design systems that turn business problems into working products, from the camera on the edge to the API in the cloud.
+
+- 🎯 **What I do:** solution architecture, API and backend design, and pre-sales engineering
+- 👁️ **Computer vision:** real-time detection pipelines on **NVIDIA Jetson + DeepStream**
+- 🤖 **AI platforms:** agentic AI workflows, LLM integrations, and **AI-powered ITSM**
+- 📡 **IoT:** MQTT data pipelines and lightweight edge storage
+- 🌱 **Currently exploring:** autonomous RCA agents, custom annotation tooling, and offline-first mobile apps
+- 🤝 **Open to:** collaborations on CV, edge AI, and open-source IoT tools
+- 🗣️ English · Malayalam · Tamil
+
+---
+
+### 🛠️ Tech stack
+
+**Languages**
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
 </p>
--->
+
+**Backend & data**
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+</p>
+
+**AI, vision & IoT**
+<p>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/DeepStream-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white" />
+</p>
+
+**DevOps & tools**
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</p>
+
+---
+
+### 🚀 Featured projects
+
+| Project | What it does | Stack | Status |
+|---|---|---|---|
+| [**SQLiteDB-MQTT**](https://github.com/MebinMohanan/SQLiteDB-MQTT) | IoT data pipeline that bridges MQTT messaging with SQLite storage | Python · MQTT · SQLite | ✅ Production |
+| [**fastApi-webSocket**](https://github.com/MebinMohanan/fastApi-webSocket) | Real-time data streaming service over WebSockets | Python · FastAPI | ✅ Production |
+| [**Evora**](https://github.com/MebinMohanan/evora-beta) | Web platform, evolving toward production | HTML · CSS · JS | 🧪 Beta |
+
+<details>
+<summary><b>🏗️ What I've built at work (closed source)</b></summary>
+<br>
+
+- **Edge vision for industrial inspection:** real-time object and debris detection on NVIDIA Jetson with DeepStream
+- **AI ITSM intelligence layer:** agent orchestration and governance for IT service management
+- **Autonomous RCA agent:** diagnose → remediate → root-cause analysis for IT incidents
+- **Enterprise Python backends:** Django, MySQL, and Pandas services (Wipro, 2017–2022)
+
+</details>
+
+---
+
+### 📊 GitHub stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=MebinMohanan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MebinMohanan&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=MebinMohanan&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+### 🏆 Recognition
+
+- 🥇 **Award for Ultimate Team Player**, DifiNative Technologies (2022)
+- 🌟 **Award of Excellence**, Wipro Technologies (2019)
+
+---
+
+### 📫 Let's connect
+
+<p>
+  <a href="mailto:mebin.m.official@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/MebinMohanan"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center"><i>"Build what works in the real world, then make it scale."</i></p>
